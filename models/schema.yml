@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: Supermarket
+    database: mineria-2023-402723
+    tables:
+      - name: Clientes
+        description: tabla con la información de los clientes
+      - name: Compras
+        description: tabla con la información de las compras hechas por clientes
+      - name: Exito
+        description: tabla con la información de los productos de la tienda Exito
+      - name: Olimpica_IMP
+        description: tabla con la información de los productos de la tienda Olimpica
+        
