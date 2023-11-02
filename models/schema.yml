@@ -12,4 +12,13 @@ sources:
         description: tabla con la información de los productos de la tienda Exito
       - name: Olimpica_IMP
         description: tabla con la información de los productos de la tienda Olimpica
-        
+      - name: Olimpica
+        description: tabla con la información de los productos de la tienda Olimpica
+      - name: Olimpica_EXT
+        description: tabla con la información de los productos de la tienda Olimpica  
+      - name: Clientes_EXT
+        description: tabla con la información de los productos de la tienda Olimpica  
+      - name: Compras_EXT
+        description: tabla con la información de los productos de la tienda Olimpica  
+      - name: Exito_EXT
+        description: tabla con la información de los productos de la tienda Olimpica  
