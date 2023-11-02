@@ -17,8 +17,8 @@ sources:
       - name: Olimpica_EXT
         description: tabla con la información de los productos de la tienda Olimpica  
       - name: Clientes_EXT
-        description: tabla con la información de los productos de la tienda Olimpica  
+        description: tabla con la información de los clientes  
       - name: Compras_EXT
-        description: tabla con la información de los productos de la tienda Olimpica  
+        description: tabla con la información de las compras hechas por clientes 
       - name: Exito_EXT
-        description: tabla con la información de los productos de la tienda Olimpica  
+        description: tabla con la información de los productos de la tienda Exito  
