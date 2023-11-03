@@ -3,13 +3,13 @@
 *Cabe recalcar que para la preparación del ambiente se siguió los pasos dados en el documento guía por lo que solo se mostrará el proceso para la solución de las preguntas.*
 
 ### Navegación rapida:
-* **[Gasto promedio](#Gasto-promedio)**
+* **[:bar_chart: Gasto promedio](#bar_chart-Gasto-promedio)**
 * **[Principales compradores](#Principales-compradores)**
 * **[Compradores unicos de olimpica](#Compradores-unicos-de-olimpica)**
 * **[Compras populares](#Compras-populares)**
 * **[Artículos sin compras](#Artículos-sin-compras)**
 
-## Gasto promedio:
+## :bar_chart: Gasto promedio:
 Para la solución de esta pregunta primero se ha tomado como base las tablas imputadas de olimpica y exito y se ha obtenido tanto el precio como el codigo de todo aquel elemento que contenga la cadena "Vino Tinto" dentro de la columna producto. <br>
 Despues de esto se ha tomado la tabla de compras y se han filtrado solo aquellas filas que coincidan con productos obtenidos anteriormente y se han agrupado las cantidades de compras por cada producto, esto sobre cada almacen. <br>
 Luego se ha obtenido el costo total multiplicando el precio de estos productos por las cantidades vendidas de cada uno. <br>
@@ -52,5 +52,5 @@ Por ultimo se toman todos estos productos resultantes y se guardan dentro de una
 *Ingenieria de sistemas y computación*
 
 **Institución** <br>
-*Universidad del Norte*
+*Universidad del Norte
 </details>
