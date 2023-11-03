@@ -49,8 +49,8 @@ Por ultimo se toman todos estos productos resultantes y se guardan dentro de una
 *Minería de datos 202330*
 
 **Programa academico** <br>
-Ingenieria de sistemas y computación
+*Ingenieria de sistemas y computación*
 
 **Institución** <br>
-Universidad del Norte
+*Universidad del Norte*
 </details>
