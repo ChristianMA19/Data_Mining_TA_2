@@ -3,19 +3,20 @@
 *Cabe recalcar que, para la preparación del ambiente, se siguieron los pasos dados en el documento guía, por lo que solo se mostrará el proceso para la solución de las preguntas.*
 
 ### Navegación rapida:
-* **[:bar_chart: Gasto promedio](#bar_chart-Gasto-promedio)**
-* **[:dollar: Principales compradores](#dollar-Principales-compradores)**
+* **[:1234: Gasto promedio](#1234-Gasto-promedio)**
+* **[:money_with_wings: Principales compradores](#money_with_wings-Principales-compradores)**
 * **[:hand: Compradores unicos de olimpica](#hand-Compradores-unicos-de-olimpica)**
 * **[:chart_with_upwards_trend: Compras populares](#chat-with-upwards-trend-Compras-populares)**
 * **[:chart_with_downwards_trend: Artículos sin compras](#chart-with-downwards-trend-Artículos-sin-compras)**
+* **[:bar_chart: Visualización en Loocker Studio](#bar_chart-Visualización-en-Loocker-Studio)**
 
-## :bar_chart: Gasto promedio:
+## :1234: Gasto promedio:
 Para la solución de esta pregunta, primero se ha tomado como base las tablas imputadas de Olímpica y Éxito, y se ha obtenido tanto el precio como el código de todo aquel elemento que contenga la cadena "Vino Tinto" dentro de la columna producto.<br>
 Después de esto, se ha tomado la tabla de compras y se han filtrado solo aquellas filas que coincidan con productos obtenidos anteriormente, y se han agrupado las cantidades de compras por cada producto, esto sobre cada almacén.<br>
 Luego se ha obtenido el costo total multiplicando el precio de estos productos por las cantidades vendidas de cada uno.<br>
 Por último, se ha obtenido el promedio de compras de estos productos y se ha guardado en una tabla materializada, la cual también contiene los siguientes campos de información que pueden ser de interés final: Almacén, Producto, Total de compras y Total monetario de compras.
 
-## :dollar: Principales compradores:
+## :money_with_wings: Principales compradores:
 Inicialmente, se han obtenido todos los compradores de cada almacén, distinguiéndolos del producto comprado. Esto se ha logrado gracias a que cada producto tiene un identificador de su almacén en el nombre, lo cual se ha utilizado como apoyo para identificarlos, buscando la cadena "OLI" para las compras hechas en Olímpica y "EXI" para las compras hechas en Éxito.<br>
 Luego de esto, se ha obtenido el mayor gasto de cada almacén. Para lograrlo, se han agrupado todas las compras para identificar la cantidad de productos distintos que ha comprado cada cliente. Luego, se ha multiplicado estas cantidades por el precio respectivo para cada producto y, finalmente, se han agrupado los resultados obtenidos por cada cliente, de modo que se ha obtenido el cliente que ha gastado más dinero en cada almacén.<br>
 Por último, se han agrupado estos dos compradores (uno por cada almacén) en una sola tabla con información de posible interés: (Almacén, Código, Nombre, Apellido y su Total de Compras).
@@ -36,6 +37,10 @@ Lograr la solución a este problema conlleva el siguiente procedimiento:<br>
 En primer lugar, se obtienen los datos de dos tablas, primero todos los productos disponibles y luego todos aquellos productos presentes en las compras.<br>
 Luego de esto, se realiza un filtro para obtener todos aquellos productos que **no** están dentro de las compras realizadas.<br>
 Por último, se toman todos estos productos resultantes y se guardan en una nueva tabla materializada con toda la información disponible de cada producto.
+
+## :bar_chart: Visualización en Loocker Studio:
+En el siguiente Link podra acceder a la visualización mediante la herramienta de Loocker Studio.
+### [:bar_chart: Loocker Studio](https://lookerstudio.google.com/reporting/5758e6e5-8a90-4405-aacb-9e0fb3cf3396)
 
 <details>
     <summary>Información...</summary>
