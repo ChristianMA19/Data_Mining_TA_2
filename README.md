@@ -52,5 +52,5 @@ Por ultimo se toman todos estos productos resultantes y se guardan dentro de una
 *Ingenieria de sistemas y computación*
 
 :mortar_board: **Institución** <br>
-*Universidad del Norte
+*Universidad del Norte*
 </details>
