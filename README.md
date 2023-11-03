@@ -45,12 +45,12 @@ Por ultimo se toman todos estos productos resultantes y se guardan dentro de una
 * Nefer Medina Ricaurte
 * Natalia Mendoza Acosta
 
-**Asignatura**
+**Asignatura** <br>
 *Minería de datos 202330*
 
-**Programa academico**
+**Programa academico** <br>
 Ingenieria de sistemas y computación
 
-**Institución**
+**Institución** <br>
 Universidad del Norte
 </details>
