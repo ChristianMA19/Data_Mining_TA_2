@@ -4,7 +4,7 @@ dbt-mineria:
       dataset: Supermarket
       job_execution_timeout_seconds: 1200
       job_retries: 1
-      keyfile: C:\Users\natyp\Downloads\dbt-project-team5\key.json #RUTA DEL PROYECTO CON \key.json
+      keyfile: .\key.json #RUTA DEL PROYECTO CON \key.json
       location: US
       method: service-account
       priority: interactive
