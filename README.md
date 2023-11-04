@@ -3,12 +3,23 @@
 *Cabe recalcar que, para la preparación del ambiente, se siguieron los pasos dados en el documento guía, por lo que solo se mostrará el proceso para la solución de las preguntas.*
 
 ### Navegación rapida:
+* **[:exclamation: Información importante](#exclamation-Información-importante)**
 * **[:1234: Gasto promedio](#1234-Gasto-promedio)**
 * **[:money_with_wings: Principales compradores](#money_with_wings-Principales-compradores)**
 * **[:hand: Compradores unicos de olimpica](#hand-Compradores-unicos-de-olimpica)**
 * **[:chart_with_upwards_trend: Compras populares](#chart_with_upwards_trend-Compras-populares)**
 * **[:chart_with_downwards_trend: Artículos sin compras](#chart_with_downwards_trend-Artículos-sin-compras)**
 * **[:bar_chart: Visualización en Loocker Studio](#bar_chart-Visualización-en-Loocker-Studio)**
+
+## :exclamation: Información importante:
+Para el correcto funcionamiento es necesario conocer la siguiente información y seguir el siguiente procedimiento:<br>
+* Será necesario ejecutar la imputación de las tablas, para esto se debera correr el siguiente comando en la terminal GitBash:
+### dbt run --models imputation.*carpeta*
+*donde carpeta será el nombre de la tabla a realizar la imputación*
+
+* Para ejecutar cualquier modelo tambien será necesario realizar la siguiente ejecución dentro de la terminal:<br>
+### dbt run --models *carpeta*
+*Donde carpeta será el nombre de el modelo el cual se va a ejecutar*
 
 ## :1234: Gasto promedio:
 Para la solución de esta pregunta, primero se ha tomado como base las tablas imputadas de Olímpica y Éxito, y se ha obtenido tanto el precio como el código de todo aquel elemento que contenga la cadena "Vino Tinto" dentro de la columna producto.<br>
