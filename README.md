@@ -6,8 +6,8 @@
 * **[:1234: Gasto promedio](#1234-Gasto-promedio)**
 * **[:money_with_wings: Principales compradores](#money_with_wings-Principales-compradores)**
 * **[:hand: Compradores unicos de olimpica](#hand-Compradores-unicos-de-olimpica)**
-* **[:chart_with_upwards_trend: Compras populares](#chat-with-upwards-trend-Compras-populares)**
-* **[:chart_with_downwards_trend: Artículos sin compras](#chart-with-downwards-trend-Artículos-sin-compras)**
+* **[:chart_with_upwards_trend: Compras populares](#chart_with_upwards_trend-Compras-populares)**
+* **[:chart_with_downwards_trend: Artículos sin compras](#chart_with_downwards_trend-Artículos-sin-compras)**
 * **[:bar_chart: Visualización en Loocker Studio](#bar_chart-Visualización-en-Loocker-Studio)**
 
 ## :1234: Gasto promedio:
@@ -18,8 +18,8 @@ Por último, se ha obtenido el promedio de compras de estos productos y se ha gu
 
 ## :money_with_wings: Principales compradores:
 Inicialmente, se han obtenido todos los compradores de cada almacén, distinguiéndolos del producto comprado. Esto se ha logrado gracias a que cada producto tiene un identificador de su almacén en el nombre, lo cual se ha utilizado como apoyo para identificarlos, buscando la cadena "OLI" para las compras hechas en Olímpica y "EXI" para las compras hechas en Éxito.<br>
-Luego de esto, se ha obtenido el mayor gasto de cada almacén. Para lograrlo, se han agrupado todas las compras para identificar la cantidad de productos distintos que ha comprado cada cliente. Luego, se ha multiplicado estas cantidades por el precio respectivo para cada producto y, finalmente, se han agrupado los resultados obtenidos por cada cliente, de modo que se ha obtenido el cliente que ha gastado más dinero en cada almacén.<br>
-Por último, se han agrupado estos dos compradores (uno por cada almacén) en una sola tabla con información de posible interés: (Almacén, Código, Nombre, Apellido y su Total de Compras).
+Luego de esto, se ha obtenido el mayor gasto para los almacenes. Para lograrlo, se han agrupado todas las compras para identificar la cantidad de productos distintos que ha comprado cada cliente. Luego, se ha multiplicado estas cantidades por el precio respectivo para cada producto y, finalmente, se han agrupado los resultados obtenidos por cada cliente, de modo que se ha obtenido la lista de los cliente que ha gastado más dinero en cada almacén.<br>
+Por último, se han agrupado y ordenado todos estos clientes de forma descendiente en una sola tabla y se ha determinado mostrar solo aquellos 10 compradores que mas dinero han gastado.
 
 ## :hand: Compradores unicos de olimpica:
 La solución a esta pregunta consiste en obtener todos los datos de la tabla de compras y luego agruparlos por los clientes para así poder tener un cliente distinto en cada fila.<br>
@@ -40,7 +40,7 @@ Por último, se toman todos estos productos resultantes y se guardan en una nuev
 
 ## :bar_chart: Visualización en Loocker Studio:
 En el siguiente Link podra acceder a la visualización mediante la herramienta de Loocker Studio.
-### [:bar_chart: Loocker Studio](https://lookerstudio.google.com/reporting/5758e6e5-8a90-4405-aacb-9e0fb3cf3396)
+### [:bar_chart: Loocker Studio](https://lookerstudio.google.com/reporting/f9e790f2-4f2f-4ae6-b992-cff68c625e81)
 
 <details>
     <summary>Información...</summary>
