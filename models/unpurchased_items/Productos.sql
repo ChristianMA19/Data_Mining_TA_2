@@ -1,3 +1,3 @@
-SELECT * FROM {{ source("Supermarket","Olimpica_IMP") }} 
+SELECT 'Olimpica' AS Almacen, * FROM {{ source("Supermarket","Olimpica_IMP") }} 
 UNION ALL
-SELECT * FROM {{ source("Supermarket","Exito") }}
+SELECT 'EXITO' AS Almacen, * FROM {{ source("Supermarket","Exito") }}

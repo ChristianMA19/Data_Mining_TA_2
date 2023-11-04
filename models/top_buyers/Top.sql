@@ -1,9 +1,10 @@
 {{ config(materialized='table') }}
-WITH Compradores AS (
-  SELECT 'Olimpica' AS Almacen, * FROM {{ ref("Comprador_TOPOLI") }}
-  UNION ALL
-  SELECT 'Exito' AS Almacen, * FROM {{ ref("Comprador_TOPEXITO") }}
+
+WITH info_cliente AS  (
+  SELECT a.Nombre, a.Apellido, a.Edad, a.Celular, a.Email, b.total_compras AS TotalGastadoEnCompras
+  FROM {{ source("Supermarket","Clientes") }}  a INNER JOIN {{ ref("Clientes_Gastos") }} b ON a.C__digo = b.ID_Cliente
 )
 
-SELECT c.Almacen, cli.C__digo AS Codigo, cli.Nombre, cli.Apellido, c.TotalCompras
-FROM Compradores c INNER JOIN {{ source("Supermarket", "Clientes") }} cli ON c.cliente = cli.C__digo
+SELECT *
+FROM info_cliente
+ORDER BY TotalGastadoEnCompras DESC

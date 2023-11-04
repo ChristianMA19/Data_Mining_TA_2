@@ -5,5 +5,8 @@ WITH Info AS (
   UNION ALL
   SELECT * FROM {{ ref("Info_OLI") }}
 )
-SELECT * FROM Info
-ORDER BY conteo DESC
+
+SELECT * 
+FROM Info
+ORDER BY NumeroDeCompras DESC
+LIMIT 10

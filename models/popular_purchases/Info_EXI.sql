@@ -1,2 +1,2 @@
-SELECT n.producto, n.conteo, o.producto as descripcion
-FROM {{ ref("Num_Compras")}} n INNER JOIN {{ source("Supermarket","Exito") }} o ON n.producto=o.codigo
+SELECT 'Exito' AS Almacen, n.producto AS ID_producto, n.conteo AS NumeroDeCompras, e.producto as Descripcion, e.precio AS Precio
+FROM {{ ref("Num_Compras")}} n INNER JOIN {{ source("Supermarket","Exito") }} e ON n.producto=e.codigo

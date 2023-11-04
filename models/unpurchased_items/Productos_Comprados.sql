@@ -1,3 +1,3 @@
-SELECT producto
+SELECT producto AS Codigo
 FROM {{ source("Supermarket","Compras") }}
-GROUP BY producto
+GROUP BY Codigo
