@@ -14,11 +14,11 @@
 ## :exclamation: Información importante:
 Para el correcto funcionamiento es necesario conocer la siguiente información y seguir el siguiente procedimiento:<br>
 * Será necesario ejecutar la imputación de las tablas, para esto se debera correr el siguiente comando en la terminal GitBash:
-##### dbt run --models imputation.*carpeta*
+    **dbt run --models imputation.*carpeta***
 *donde carpeta será el nombre de la tabla a realizar la imputación*
 
 * Para ejecutar cualquier modelo tambien será necesario realizar la siguiente ejecución dentro de la terminal:<br>
-##### dbt run --models *carpeta*
+    **dbt run --models *carpeta***
 *Donde carpeta será el nombre de el modelo el cual se va a ejecutar*
 
 ## :1234: Gasto promedio:
